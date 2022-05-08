@@ -8,8 +8,8 @@
 #define ADC_PIN 34
 
 #define BATTERY_MIN_V 3.4
-#define BATTERY_MAX_V 4.19
-#define BATTCHARG_MIN_V 4.21
+#define BATTERY_MAX_V 4.26
+#define BATTCHARG_MIN_V 4.3
 #define BATTCHARG_MAX_V 4.8
 
 class Battery_TFT : public Battery {
