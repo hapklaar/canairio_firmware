@@ -38,7 +38,7 @@ void TFTUtils::displayInit() {
     #else
     tft.init();
     #endif
-    tft.setRotation(0);
+    tft.setRotation(2);              // Rotate screen 180 deg.
     tft.fillScreen(TFT_BLACK);
     tft.setTextColor(TFT_WHITE, TFT_BLACK);
     tft.setTextSize(1);
